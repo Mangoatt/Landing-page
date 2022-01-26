@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* TUKAJ SE ZAČNE GLAVA STRANI */
+.glava {
+  background-color: #1f2937;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px;
+  align-items: center;
+  gap: 450px;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.naslov {
+  display: flex;
+  font-size: 24px;
+}
+.link-header {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  height: 450px;
+}
+.levi-header {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+}
+.desni.header {
+  display: flex;
+  flex-direction: column;
+}
+.drone {
+  width: 350px;
+  height: 250px;
+}
+#heromain {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+img {
+  border-radius: 20px;
+}
+.signup {
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+  border-color: #3882f6;
+  color: white;
+  font-weight: bold;
+}
+.headerparagraph {
+  color: white;
+}
+/* TUKAJ SE KONČA GLAVA STRANI */
