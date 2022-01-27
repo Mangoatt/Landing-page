@@ -75,3 +75,113 @@ img {
   color: white;
 }
 /* TUKAJ SE KONČA GLAVA STRANI */
+.container2 {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+.middle-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+.middle-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.slike-levo {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  color: grey;
+}
+.slika1 {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  justify-content: space-around;
+  border: solid 5px lightskyblue;
+}
+.slika2 {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  justify-content: space-around;
+  border: solid 5px lightskyblue;
+}
+.slike-desno {
+  display: flex;
+  gap: 40px;
+  color: grey;
+}
+.slika3 {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  justify-content: space-around;
+  border: solid 5px lightskyblue;
+}
+.slika4 {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  justify-content: space-around;
+  border: solid 5px lightskyblue;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background-color: #e5e7eb;
+}
+#quote {
+  max-width: 650px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-style: italic;
+}
+strong {
+  margin: 300px;
+}
+/* tukaj se začne del pred footerjem */
+.spodnji-container {
+  display: flex;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+}
+.spodaj-textlevo {
+  width: 750px;
+  text-align: center;
+  background-color: #3882f6;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
+#spodnji-gumb {
+  background-color: #3882f6;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-color: white;
+  color: white;
+  font-weight: bolder;
+  border-style: groove;
+  height: 30px;
+  border: solid 2px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+  height: 60px;
+  font-style: italic;
+  font-size: smaller;
+}
