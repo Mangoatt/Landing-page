@@ -155,26 +155,36 @@ strong {
   justify-content: center;
   align-items: center;
 }
-.spodaj-textlevo {
-  width: 750px;
-  text-align: center;
+.spodaj-box {
+  display: flex;
   background-color: #3882f6;
-  padding: 20px;
-  border-radius: 20px;
+  padding: 60px;
+  border-radius: 10px;
+  width: 650px;
+  justify-content: space-between;
+}
+
+.text-text {
+}
+.boldtext1 {
+  font-weight: bold;
   color: white;
+}
+.text14 {
+  color: white;
+  font-size: smaller;
 }
 #spodnji-gumb {
   background-color: #3882f6;
-  border-radius: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
   border-color: white;
   color: white;
-  font-weight: bolder;
-  border-style: groove;
-  height: 30px;
-  border: solid 2px;
+  font-weight: bold;
+  border-style: solid;
 }
+
 .footer {
   display: flex;
   align-items: center;
